@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>活动列表|分享大一点的学生们的社团生活</title>
+<!-- Bootstrap -->
+<link rel="stylesheet" href="bootstrap-3.3.0/css/bootstrap.min.css">
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/st.css">
+<!-- <link rel="stylesheet" href="css/school.css"> -->
+<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+<!--[if lt IE 9]>
+  <script src="http://cdn.bootcss.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+  <script src="http://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+<![endif]-->
+</head>
+<body class="container-fluid">
+<header id="site-header" class="container-fluid">
+    <div class="container bgColor-white">
+        <hgroup><a href="index.html"><h1 id="site-log" class="col-md-4 marginTop-20px">高校社团汇</h1></a></hgroup>
+        <div class="hd-right col-md-6 fr pr0">
+            <ul class="info-nav container-fluid">
+                <li class="u-log">
+                    <a href="javasrcpt:;" data-toggle="modal" data-target="#myModal">登录</a>
+                    <!-- 弹出登录框 -->
+                    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                      <div class="modal-dialog">
+                        <div class="modal-content">
+                          <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                            <h4 class="modal-title" id="myModalLabel">登录框</h4>
+                          </div>
+                          <div class="modal-body">
+                            <form role="form">
+                              <div class="form-group">
+                                <label for="exampleInputEmail1">帐号：</label>
+                                <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Enter email">
+                              </div>
+                              <div class="form-group">
+                                <label for="exampleInputPassword1">密码：</label>
+                                <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+                              </div>
+                              <button type="submit" class="btn btn-default">点击登录</button>
+                              <span class="marginLeft-10px u-reg">还没有帐号?<a href="javasrcpt:;">点击注册</a></span>
+                            </form>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                </li>
+                <li class="u-reg"><a href="javasrcpt:;">注册分享社团快乐时光</a></li>
+                <li class="col-md-3 textalignC fr ncvt-box">
+                    <button type="button" class="dropdown-toggle" data-toggle="dropdown">
+                    走进南职<span class="caret"></span>
+                    </button>
+                    <ul class="dropdown-menu" role="menu">
+                        <li><a href="http://www.ncvt.net/" target="_blank">学校官网</a></li>
+                        <li><a href="http://www.ncvt.net/jxglxt.htm" target="_blank">教务管理系统</a></li>
+                        <li><a href="http://crp.ncvt.net/login.portal" target="_blank">数字化校园</a></li>
+                        <!-- <li class="divider"></li> -->
+                        <li><a href="http://tsg.ncvt.net/" target="_blank">图书馆</a></li>
+                    </ul>
+                </li>
+            </ul>
+            <ul class="search-box container-fluid">
+                <li class="clearfix">
+                    <form action="" method="post">
+                        <input type="text" name="search-con" class="search-con" placeholder="社团\活动\论坛">
+                        <input type="submit" name="search-btn" class="search-btn" value="提交">
+                    </form>
+                </li>
+                <li class="fr"></li>
+            </ul>
+        </div>
+        <div class="hd-left col-md-1 fr marginTop-20px">
+            <a href="http://www.weather.com.cn/weather/101300101.shtml" target="_blank">南宁天气</a>
+        </div>
+    </div>
+    <nav class="site-nav container">
+        <h2 class="hidden">导航</h2>
+        <ul>
+            <li class="col-md-2"><img src="images/schoolNews-icon.png" alt="" /><br /><a href="school.html">校园动态</a></li>
+            <li class="col-md-2"><img src="images/st-icon.png" alt="" /><br /><a href="st.html">社团中心</a></li>
+            <li class="col-md-2"><img src="images/forum-icon.png" alt="" /><br /><a href="forum.html">论坛互动</a></li>
+            <li class="col-md-2"><img src="images/myst-icon.png" alt="" /><br /><a href="javasrcpt:;">我的社团</a></li>
+            <li class="col-md-2"><img src="images/stzw.png" alt="" /><br /><a href="javasrcpt:;">我的社团</a></li>
+            <li class="col-md-2"><img src="images/myst-icon.png" alt="" /><br /><a href="javasrcpt:;">我的社团</a></li>
+        </ul>
+    </nav>
+</header>
+<div id="site-main" class="container-fluid">
+    <div class="box-bgImg"></div>
+    <div class="container">
+        <nav class="meunPage">
+            <h2 class="display-n">当前位置</h2>
+            <ul>
+                <li>首页</li>
+                <li>></li>
+                <li>社团列表</li>
+                <li>></li>
+                <li>南朝街舞社</li>
+            </ul> 
+        </nav>
+        <section class="st-box st-index container-fluid ">
+            <article class="st-main col-md-9 pl0">
+                <div class="st-hdInfo">
+                   <header class="st-logo fl col-md-2">
+                       <a href="javascript:;" style="background-image: url('images/main_slider1.jpg');"></a>
+                       <a href="javascript:0;" class="st-btn">申请加入+</a>
+                   </header>
+                   <div class="st-info border0 overflowH">
+                       <h4 class="mt0"><a href="javascript:;" class="st-name">南朝街舞社</a></h4>
+                       <p>南宁职业技术学院校级社团“南朝街舞社”介是大撒旦阿什顿阿什顿阿萨那句话交换机回家离开基金几乎涵盖莫可究诘就机回家离开基金几乎涵盖莫可机回家离开基金几乎涵盖莫可新活动发新活动发。</p>
+                       <p class="mb0">社团宗旨：战胜一切困难，夺取一切先机！</p>
+                       <p>负责人：<a href="javascript:0;">bigYang</a></p>
+                       <ul class="st-tag">
+                           <li><a href="javasrcpt:;">运动</a></li>
+                           <li><a href="javasrcpt:;">娱乐</a></li>
+                       </ul>
+                   </div>
+                </div>
+                <section class="st-moreInfo marginTop-10px">
+                    <nav class="nav pr">
+                        <ul style="margin-bottom: -1px;">
+                            <li class="item"><a href="st-index.html">社团动态</a></li>
+                            <li class="item"><a href="st-event.html" class="active">社团活动</a></li>
+                            <li class="item"><a href="st-member.html">成员列表</a></li>
+                        </ul>
+                        <div class="bottom-bgColor"></div>
+                    </nav>
+                    <section class="st-eventlist">
+                        <h4 class="hidden">社团活动</h4>
+                    </section>
+                </section>
+                <footer class="st-footer">
+                    <nav class="textalignR">
+                        <ul class="pagination">
+                            <li class="prev"><a href="javascript:;">«</a></li>
+                            <li class="active"><a href="javascript:;">1</a></li>
+                            <li><a href="javascript:;">2</a></li>
+                            <li><a href="javascript:;">3</a></li>
+                            <li><a href="javascript:;">4</a></li>
+                            <li><a href="javascript:;">5</a></li>
+                            <li class="disabled"><span>...</span></li>
+                            <li><a href="javascript:;">48</a></li>
+                            <li class="next"><a href="javascript:;">»</a></li>
+                        </ul>
+                    </nav>
+                </footer>
+            </article>
+            <aside class="st-side col-md-3 padding0">
+                <section class="st-notice rightBox marginBottom-10px">
+                    <header class="hd clearfix">
+                       <h5>社团公告</h5> 
+                    </header>
+                    <div class="notice-con">
+                        <ul>
+                            <li><span style="color: #999;">[8-19]</span> <a href="javascript:0;">于18号下午在二教召开第10次会议</a></li>
+                            <li><span style="color: #999;">[10-22]</span> <a href="javascript:0;">请各个部门的部长做好统计</a></li>
+                            <li><span style="color: #999;">[5-20]</span> <a href="javascript:0;">宣传部的同学请散场后留下</a></li>
+                            <li><span style="color: #999;">[10-22]</span> <a href="javascript:0;">请各个部门的部长做好统计</a></li>
+                            <li><span style="color: #999;">[5-20]</span> <a href="javascript:0;">宣传部的同学请散场后留下</a></li>
+                        </ul>
+                    </div>
+                </section>
+                <section class="st-count rightBox marginBottom-10px">
+                    <h5 class="hidden">社团附属信息</h5>
+                    <div class="pLR0">
+                        <table class="container-fluid">
+                            <tbody>
+                                <tr>
+                                    <td>
+                                        <p>18</p>
+                                        活动
+                                    </td>
+                                    <td>
+                                        <p>650</p>
+                                        成员
+                                    </td>
+                                    <td>
+                                        <p>3</p>
+                                        排名
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </section>
+                <section class="st-ranking rightBox">
+                    <header class="hd clearfix">
+                        <h5>社团排行榜</h5>
+                    </header>
+                    <div class="pt0">
+                        <ul>
+                            <li class="borderT0">
+                                <a href="javascript:0;" style="background-image: url(images/main_slider4.jpg);" class="st-rankingLogo"></a>
+                                <div class="overflowH">
+                                   <h6 class="margin0"><a href="javascript:0;" class="st-rankingName">劲草文学社</a></h6>
+                                   <p class="st-director">负责人: <a href="javascript:0;">黑钦州的王</a></p>
+                                   <p class="mb0">
+                                       <span>130 人</span>
+                                       <a href="javascript:0;" class="moreJoin-btn">申请加入+</a>
+                                   </p> 
+                                </div>
+                            </li>
+                            <li>
+                                <a href="javascript:0;" style="background-image: url(images/main_slider4.jpg);" class="st-rankingLogo"></a>
+                                <div class="overflowH">
+                                   <h6 class="margin0"><a href="javascript:0;" class="st-rankingName">劲草文学社</a></h6>
+                                   <p class="st-director">负责人: <a href="javascript:0;">黑钦州的王</a></p>
+                                   <p class="mb0">
+                                       <span>130 人</span>
+                                       <a href="javascript:0;" class="moreJoin-btn">申请加入+</a>
+                                   </p> 
+                                </div>
+                            </li>
+                            <li>
+                                <a href="javascript:0;" style="background-image: url(images/main_slider4.jpg);" class="st-rankingLogo"></a>
+                                <div class="overflowH">
+                                   <h6 class="margin0"><a href="javascript:0;" class="st-rankingName">劲草文学社</a></h6>
+                                   <p class="st-director">负责人: <a href="javascript:0;">黑钦州的王</a></p>
+                                   <p class="mb0">
+                                       <span>130 人</span>
+                                       <a href="javascript:0;" class="moreJoin-btn">申请加入+</a>
+                                   </p> 
+                                </div>
+                            </li>
+                            <li>
+                                <a href="javascript:0;" style="background-image: url(images/main_slider4.jpg);" class="st-rankingLogo"></a>
+                                <div class="overflowH">
+                                   <h6 class="margin0"><a href="javascript:0;" class="st-rankingName">劲草文学社</a></h6>
+                                   <p class="st-director">负责人: <a href="javascript:0;">黑钦州的王</a></p>
+                                   <p class="mb0">
+                                       <span>130 人</span>
+                                       <a href="javascript:0;" class="moreJoin-btn">申请加入+</a>
+                                   </p> 
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </section>
+            </aside>
+        </section>
+    </div>
+    <div class="container-fluid fooetrBg"></div>
+</div>
+<footer id="site-footer" class="container-fluid">
+    <div class="container textalignC">
+        <p class="slogan col-md-6">和TA一起分享you“大一点的学生Young时代”的社团生活吧！</p>
+    </div>
+    <div class="container-fluid bgWhite">
+        <div class="container">
+            <ul class="info-nav fl clearfix">
+                <li><a href="javasrcpt:;">关于我们</a></li>
+                <li><a href="javasrcpt:;">待定..</a></li>
+            </ul>
+            <p class="fr copyright">Copyright(C) NCVT P-N-Y 毕业设计作品. All Rights Reserved.</p>
+        </div>
+    </div>
+</footer>
+<script src="js/jquery-1.11.1.min.js"></script>
+<script src="bootstrap-3.3.0/js/bootstrap.min.js"></script>
+<script>
+    $(function(){
+        //回复评论
+        $('.reply-btn').click(function(){
+            var reply_con = $(this).parent().next();
+            if(reply_con.is(':visible') == false){
+                reply_con.removeClass('hidden');
+            }else{
+                reply_con.addClass('hidden');
+            }
+        })
+    })
+</script>
+</body>
+</html>
